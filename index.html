@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Resources/pokeball.png">
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <div class="pokedex">
+        <div class="header">
+            <div class="blue">
+
+            </div>
+            <div class="red">
+
+            </div>
+            <div class="green">
+
+            </div>
+            <div class="yellow">
+                
+            </div>
+        </div>
+        <div class="center">
+            <div class="screen">
+                <img src="" alt="">
+                <div class="center">
+                    <span class="text">Type: </span>
+                    <span id="type"></span>
+                </div>
+                <div class="center">
+                    <h5>123</h5>
+                    <span class="text">-</span>
+                    <h1 id="name">Pikachu</h1>
+                </div>
+              <div class="center">
+                <span id="hp">HP:</span>
+                <span id="hp-value"> </span>
+                <span id="atk">ATK:</span>
+                <span id="atk-value"> </span>
+                <span id="def">DEF:</span>
+                <span id="def-value"> </span>
+                <span id="speed">SPEED:</span>
+                <span id="speed-value"> </span>
+              </div>
+            </div>
+        </div>
+        <div class="center submit">
+            <input type="text" placeholder="type pokemon's name" id="pokemonName">
+            <button onclick="submit()" class="submit-btn">Submit</button>
+        </div>
+        <div class="img">
+            <img src="/Resources/buttons.png" alt="">
+        </div>
+        <div class="end">
+            <div class="buttons">
+                <div class="end">
+                    <button onclick="changeColor()"class="first">A</button>
+                </div>
+                <div class="end">
+                    <button onclick="decrement()" class="second">B</button>
+                    <button onclick="increment()" class="third">C</button>
+                </div>
+                <div class="end">
+                    <button onclick="setBackground()" class="fourth">D</button>
+                </div>
+            
+            </div>
+        </div>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
