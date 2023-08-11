@@ -7,7 +7,7 @@ window.onload = (event) => {
 }
 
 function submit() {
-    const input = document.querySelector('#pokemonName').value;
+    const input = document.querySelector('#pokemonName').value.toLowerCase();
 
     api(input);
 }
