@@ -92,11 +92,11 @@ function changeColor() {
 function setBackground(){
     const backgroundScreen = document.querySelector(".screen")
     if(counterBackgroundScreen === 0){
-        backgroundScreen.style.backgroundImage = "url(Resources/background3.jpeg)"
+        backgroundScreen.style.backgroundImage = "url(./Resources/background3.jpeg)"
         return counterBackgroundScreen++;  
     }
     if(counterBackgroundScreen === 1){
-        backgroundScreen.style.backgroundImage ="url(Resources/background2.png)"
+        backgroundScreen.style.backgroundImage ="url(./Resources/background2.png)"
         return counterBackgroundScreen--;
     }
     
