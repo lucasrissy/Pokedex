@@ -65,7 +65,7 @@ body{
 .screen{
     width: 90%;
     height: 350px;
-    background-image: url("./Resources/background2.png");
+    background-image: url("Resources/background2.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
